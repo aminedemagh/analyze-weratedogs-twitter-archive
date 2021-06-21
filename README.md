@@ -6,7 +6,9 @@ This project was created on 2021-03-27.
 ## Description
 
 This project aims to gather, clean and analyze data from [WeRateDogs Twitter archive](https://twitter.com/dog_rates).
-WeRateDogs is a twitter account that posts pictures of dogs with a funny description. It has over 8.9M followers. It got famous with its creative rating system where the denominator is almost always 10 but the numerator is usually superior to 10. 
+WeRateDogs is a twitter profile that posts pictures of dogs with a funny description. It has over 8.9M followers and it got famous with its creative rating system where the denominator is almost always 10 but the numerator is usually superior to 10. 
+
+This work was made to complete an assignement for the [Udacity Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002).
 
 ## Files used
 
