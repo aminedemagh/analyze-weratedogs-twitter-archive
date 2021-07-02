@@ -14,7 +14,7 @@ This work was made to complete an assignement for the [Udacity Data Analyst Nano
 
 `wrangle_act.ipynb` : a jupyter notebook for gathering, cleaning, and analyzing the data. 
 
-`twitter-archive-enhanced.csv` : a file that contains basic tweet information (twitter IDs, text, timestamp...) of +5000 tweets, courtesy of [WeRateDogs](https://twitter.com/dog_rates).
+`twitter-archive-enhanced.csv` : a file that contains basic tweet information (twitter IDs, text, timestamp...) of 2356 tweets, courtesy of [WeRateDogs](https://twitter.com/dog_rates).
 
 `tweet_json.txt` : a file containing additional information (retweet count, favorite count, ...) about the tweets of `twitter-archive-enhanced.csv` formatted as JSON. This file was created by querying the Twitter API using the tweet IDs. You can either use it directly or create it yourself by running the code cells for downloading the data but you will need to set up a Twitter app to gain access tokens.
 
