@@ -39,3 +39,17 @@ After getting your access tokens, you can start using [Tweepy](https://www.tweep
 `pip install tweepy`
 
 
+## Dataset
+
+The dataset for this project was gathered from 3 different files : 
+
+`twitter-archive-enhanced.csv` : contains information about 2356 tweets with 17 columns. I selected 12 columns from this file: `tweet_id`, `timestamp`, `source`, `text`, `expanded_urls`, `name`, `rating_numerator`, and `rating_denominator` (from the rating of the dog's picture in the tweet). I also took `doggo`, `puppo`, `pupper`, and `floofer` columns that I transformed into a single one `dog_stage`. 
+
+`image_predictions.tsv` : a file that contains dogs' breed predictions for 2075 tweet of `twitter-archive-enhanced.csv` with 12 columns. I selected 3 columns from this file:
+- `p1` : the most likely dog's breed.
+- `p1_conf` : the probability of the predicted breed (the "confidence" of the model in the prediction).
+- `p1_dog` : whether the picture shows a dog or not. 
+
+`tweet_json.txt` : contains complementary information about 2330 tweets  of `twitter-archive-enhanced.csv` with 30 columns. I selected 2 columns from this file: `retweet_count` and `favorite_count`. 
+
+After joining and cleaning the data of the 3 files, I stored it in `twitter_archive_master.csv`. It has information about 1496 tweets with 14 columns.
