@@ -53,3 +53,12 @@ The dataset for this project was gathered from 3 different files :
 `tweet_json.txt` : contains complementary information about 2330 tweets  of `twitter-archive-enhanced.csv` with 30 columns. I selected 2 columns from this file: `retweet_count` and `favorite_count`. 
 
 After joining and cleaning the data of the 3 files, I stored it in `twitter_archive_master.csv`. It has information about 1496 tweets with 14 columns.
+
+## Credits
+Thanks to [Udacity](https://www.udacity.com/) for their great content.
+
+Thanks to [WeRateDogs](https://twitter.com/dog_rates) for providing their data to students.
+
+Thanks to [Twitter](https://twitter.com) for the generous free usage limit of their API.
+
+Thanks to [Tweepy](https://www.tweepy.org/) for making Twitter API calls so effortless. 
